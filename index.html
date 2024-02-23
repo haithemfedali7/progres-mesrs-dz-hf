@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            padding-top: 10px;
+            background-color: #D7D7D7;
+            align-items: center;
+            text-align: center;
+        }
+        header {
+            color: #999999;
+            font-size: 180%;
+        }
+        h2 {
+            font-size: 140%;
+            color: #999999;
+        }
+        form {
+            background-color: #F0F0F0;
+            margin-top: 50px;
+            width: 420px;
+            margin: auto;
+            padding: 20px 5px;   
+        }
+        input[type=text],input[type=password]{
+            width: 90%;
+            height: 30px;
+            position: relative;
+            border:black;
+  border-radius: 4px;
+  font-size: 16px;
+ 
+  padding: 15px 15px 15px 15px;
+        }
+  
+
+
+        input[type=submit]{
+            cursor: pointer;
+            background-color: #05852F;
+            color: white;
+            margin-left: -150px;
+            border-radius: 5px;
+            padding: 5px 15px;
+        }
+        input[type=checkbox]:hover {
+            cursor: pointer;
+        }
+        input[type=submit]:hover{
+            cursor: pointer;
+            background-color: #016823;
+            color: white;
+            margin-left: -150px;
+            border-radius: 5px;
+            padding: 5px 15px;
+        }
+        label {
+            cursor: pointer;
+            margin-right: -131px;
+        }
+        a {
+            color: #5D5D5D;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #5D5D5D;
+        }
+        #sub_form {
+            width: 431px;
+            background-color: #C4C4C4;
+            margin: auto;
+            padding: 17px 0px;
+        }
+        small {
+            font-size: 70%;
+        }
+ 
+
+
+    </style>
+</head>
+
+<body>
+    <img src="logo.png">
+    <form action="http://localhost:83/tpsere/login.php" method="post" class="login-form">
+        <header>Progiciel de Gestion Intégré</header>
+            <h2>Formation et Vie Etudiante</h2> 
+            <div class="input-box">
+                <input type="text" name="username" id="username" placeholder="Nom d'utilisateur" required>
+                <i class='bx bxs-user'></i>
+              </div>
+              <br>
+              <div class="input-box">
+                <input type="password" id="password" name="password" placeholder="mot de passe" required>
+                <i class='bx bxs-lock-alt' ></i>
+              </div>    
+        
+       
+        
+        <br><br><button type="submit"></button>
+        <input type="submit" value="Se connecter">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <label class="checkbox">Rester connecté
+           <input class="checkbox" type="checkbox" name="" id="">
+        </label>
+    </form>
+    <div id="sub_form">
+        <a href="">Mot de passe oublié ?</a>
+    </div>
+    <br>
+    <small>Copyright 2024 Ministére de l'Enseignement Supérieur et de la Recherche Scientifique</small>
+    <br>
+    <small>version publiée le 20-02-2024 18:47</small>
+</body>
+</html>
